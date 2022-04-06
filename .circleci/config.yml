@@ -25,6 +25,6 @@ jobs:
           command: |
             npm run frontend:build
       - run:
-          name: Front-End Build
+          name: Back-End Build
           command: |
             npm run backend:build
